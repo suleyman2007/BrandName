@@ -1,0 +1,37 @@
+.Pricing {
+    max-width: 100%;
+    margin-top: 389px;
+    margin-bottom: 160px;
+}
+
+.Pricing__inner-text {
+    margin-top: 189px;
+    p {
+        width: 378px;
+    }
+}
+
+.text-1::before {
+    content: '';
+    width: 94px;
+    height: 7px;
+    background: #E74040;
+    position: absolute;
+    margin-top: -20px;
+}
+
+.Pricing__inner-img{
+    margin-left: 190px;
+}
+
+.Pricing__inner-img1 {
+    z-index: 2;
+}
+
+.Pricing__inner-img2 {
+    position: absolute;
+    z-index: 5;
+    margin-left: -480px;
+    margin-top: 320px;
+    border-radius: 10px;
+}
